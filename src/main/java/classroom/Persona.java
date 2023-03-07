@@ -30,4 +30,10 @@ public class Persona {
         this.cedula = 1;
         totalPersonas++;
     }
+    
+
+    //getters y setters
+    public long getCedula() { return cedula; }
+    public String getNombre() { return nombre; }
+    public void setNombre(String nombre) { this.nombre = nombre; }
 }
